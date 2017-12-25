@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>QR Memories</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      {{#each svgs as |row| ~}}
+      <div class="row">
+        {{#each row as |svg| ~}}
+          <div class="col-4">
+            {{{svg}}}
+          </div>
+        {{/each~}}
+      </div>
+      {{/each~}}
+    </div>
+  </body>
+</html>

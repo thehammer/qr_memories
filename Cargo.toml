@@ -1,0 +1,10 @@
+[package]
+
+name = "qr_memories"
+version = "0.0.1"
+authors = [ "Hammer <millerjcr@gmail.com>" ]
+
+[dependencies]
+handlebars = "0.29.1"
+qrcodegen = "1.2.1"
+serde_json = "1.0.8"
